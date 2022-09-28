@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Edition der Leichenpredigt des Gabriel Wedderkops von
+                    1696</title>
+                <title type="sub">Aus den Passagen S. 35 und S. 39</title>
+                <respStmt>
+                    <persName xml:id="sp">Swantje Piotrowski</persName>
+                    <resp>Transkription</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="ad">Anne Diekjobst</persName>
+                    <resp>Auszeichnung</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="bp">Bastian Politycki</persName>
+                    <resp>Entwicklung</resp>
+                </respStmt>
+                <funder>
+                    <ref target="https://www.ub.uni-kiel.de/de/universitaetsbibliothek"
+                        >Universitätsbibliothek Kiel</ref>
+                </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition n="first">Erstpublikation <date when="2022-09-26">26. September 2022</date>
+                    in <placeName>Kiel</placeName>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="https://www.uni-kiel.de/de/">Uni Kiel</orgName>, </publisher>
+                <address>
+                    <addrLine>Christian-Albrechts-Platz 4</addrLine>
+                    <postCode>24118</postCode>
+                    <placeName>Kiel</placeName>
+                </address>
+                <availability>
+                    <p>Frei verfügbar nach <ref target="http://creativecommons.org/licenses/by/4.0/"
+                            >Creative Commons Attribution 4.0 Unported</ref>.</p>
+                </availability>
+                <idno type="urn">urn:nbn:de:gbv:8:2-3419685</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author xml:id="wcf">Franck, Wolfgang Christoph</author>
+                    <title type="main">Die an Gott stets bleibende Gottes-Kinder</title>
+                    <title type="sub1">Aus denen erwehlten Worten des LXXIII. Psalms/ v. 23.
+                        24.</title>
+                    <title type="sub2">Bey ansehnlicher und Volckreicher Beerdigung Des ... Hn. M.
+                        Gabriel Wedderkops/ Wohlverdienten Pastoris Primarii der Gemeine St. Nicolai
+                        in Kiel</title>
+                    <pubPlace>
+                        <placeName>Kiel</placeName>, <country>Deutschland</country>
+                    </pubPlace>
+                    <publisher>
+                        <persName>Joachim Reumann</persName>
+                    </publisher>
+                    <date type="cover" when="1696">1696</date>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Deutschland</country>
+                        <institution>Universitätsbibliothek CAU Kiel</institution>
+                        <repository>Geisteswissenschaften, Drucke</repository>
+                        <idno type="shelfmark">UB Kiel, Arch2 70-82</idno>
+                        <altIdentifier type="pid">
+                            <idno type="id">PPN875662757</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <!--                        <summary></summary>-->
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="print">
+                            <supportDesc>
+                                <support>
+                                    <dimensions type="4°">
+                                        <height unit="mm">230</height>
+                                        <width unit="mm">260</width>
+                                    </dimensions>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>einspaltiger Text... </p>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <decoDesc>
+                            <decoNote>Verzierte Initialen auf der Titelseite</decoNote>
+                            <decoNote>...</decoNote>
+                        </decoDesc>
+                        <bindingDesc>
+                            <p><!-- unknown --></p>
+                        </bindingDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <correction>
+                    <p>...</p>
+                </correction>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+
+    <facsimile>
+        <graphic xml:id="b-35" url="00000035.jpg"/>
+        <!--- IIIF für diese Seite: https://dibiki.ub.uni-kiel.de/viewer/api/v1/records/PPN875662757/files/images/00000035.tif/info.json -->
+        <graphic xml:id="b-39" url="00000039.jpg"/>
+        <!--- IIIF für diese Seite: https://dibiki.ub.uni-kiel.de/viewer/api/v1/records/PPN875662757/files/images/00000039.tif/info.json -->
+    </facsimile>
+    <text>
+        <body>
+            <div type="personalia">
+                <pb facs="#b-35" n="35"/>
+                <fw type="head" rend="top">Personalia</fw>
+                <p>
+                    <lb/>Da <rs ref="#gvw">er</rs> dan <lb/>von vorbesagter Schule nach der <orgName
+                        ref="#AJC">Fürstl. <hi>Universität</hi> Helmstett</orgName>
+                    <lb/>gereiset / und ein Jahr unter <hi>information</hi> des Herrn <hi>Doct</hi>.
+                    Zap <lb break="no"/>pen <hi>SS. Theolog. Professor. Ordinar.</hi> als auch bey
+                    dessen Tisch <lb/>daselbst verharret / und wie ihm gefällig ferner in
+                    Teutschland <lb/>zureisen und die daselbst herum liegende <hi>Universitäten</hi>
+                    zubesehen, <lb/>hat er sich von dannen durch Hessen / auf die
+                        <orgName>Universitäten Mar <lb break="no"/>purg</orgName> und
+                        <orgName>Giesen</orgName> eine Monahten verweilend / nacher <orgName
+                        ref="#UHD">Heidel <lb break="no"/>berg</orgName> zu seinen Bruder Herrn
+                        <persName ref="#mvw"><hi>Magno</hi> von Wedderkop</persName>
+                    <hi>Juris utri <lb break="no"/>usque Doctori</hi>, und dahmaligen <hi>Juris
+                        publici &amp; feudalis Profes <lb break="no"/>sori Ordinario</hi>, nunmehro
+                    Ihro zu Schleßwig Hollstein regie <lb break="no"/>renden Hoch Fürstl. Durchl.
+                    hochbetrauten Geheimbten Estats- <lb break="no"/>Raht und Ambtmann zu
+                    Tremsbüttel begeben / nach verfliessung <lb/>einiger Jahren aber weiter nach der
+                            <orgName><hi>Universität</hi> Tübingen</orgName> ver <lb break="no"
+                    />fügt / um mit denen berühmten Leuten als Herr <hi>Doct. <persName ref="#o"
+                            >Osian <lb break="no"/>dro</persName></hi> und
+                            <hi><persName>Wulflino</persName></hi> in eine gute Kundschafft
+                    zugerahten. </p>
+                <pb facs="#b-39" n="39"/>
+                <fw type="head" rend="top">Personalia</fw>
+                <p>
+                    <lb/>Anlagend die letztere Schwachheit und darauff erfolgten <lb/>Todesfall / so
+                    hat sich zwar der sehl. Herr Haupt <hi><term ref="#pastor">Pastor</term></hi>
+                    eine <lb/>geraume Zeit etwas krafftlos befunden / dessen dennoch un <lb
+                        break="no"/>geachtet seinen schweren Ampts Geschäfften unverdrossen vorge
+                        <lb break="no"/>standen / biß die Schwachheit endlich in etwas zugenommen /
+                    <lb/>dannenhero er sich verwichenen <hi><date when="1696-08-27">27.
+                            Augusti</date></hi> bey seinen <hi>Medico</hi>
+                    <lb/>beklaget / den Gebrauch aber einiger <hi>Medicamen</hi>ten in Hoffnung
+                    <lb/>der besserung / biß auf den Montag als den <date when="1696-08-31">31ten
+                            <hi>ejusdem</hi></date> ver <lb break="no"/>schoben / da er tages vorher
+                    sein Ampt noch öffentlich verichtet / <lb/>wiewohl ein jeder unter den Zuhörern
+                    dessen Schwachheit wohl <lb/>mercken können / gestalt er auch so bald nach
+                    gehaltener <term ref="#predigt">Predigt</term>
+                    <lb/>sich zu Bett verfugen müssen. </p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <list type="gloss" subtype="religious">
+            <label>Predigt</label>
+            <item xml:id="predigt">
+                <term>Predigt</term>
+                <note>Eine Predigt ist religiöse Rede im Rahmen des Gottesdienstes</note>
+            </item>
+            <label>Pastor</label>
+            <item xml:id="pastor">
+                <term>Pastor</term>
+                <note>Der Begriff wird als Berufstitel für Geistliche im Dienst einer Kirche
+                    verwendet</note>
+            </item>
+        </list>
+        <listOrg>
+            <org xml:id="UHD" type="unversity">
+                <orgName ref="https://d-nb.info/gnd/2051813-4">
+                    <location>
+                        <geo>49.410492°, 8.70659°</geo>
+                    </location>
+                </orgName>
+                <note>...</note>
+            </org>
+            <org xml:id="AJC" type="university">
+                <orgName ref="https://d-nb.info/gnd/2051813-4">
+                    <orgName type="orig">Univeristät Helmstett</orgName>
+                    <orgName type="norm">Universität Helmstedt</orgName>
+                    <orgName type="alternate">Academia Julia (Carolina)</orgName>
+                    <location>
+                        <geo>52.229278°, 11.008667°</geo>
+                    </location>
+                </orgName>
+            </org>
+        </listOrg>
+        <listPerson>
+            <person xml:id="gvw">
+                <persName ref="https://d-nb.info/gnd/121258564">
+                    <persName type="orig">
+                        <surname>von Wedderkopp</surname>
+                        <forename>Gabriel</forename>
+                    </persName>
+                    <persName type="norm">
+                        <surname>von Wedderkopff</surname>
+                        <forename>Gabriel</forename>
+                    </persName>
+                </persName>
+                <note>Gabriel von Wedderkopff war Magister, Diakon und ab 1694 Hauptpastor an der
+                    Nikolaikirche in <placeName>Kiel</placeName></note>
+                <birth when="1644">1644 in <placeName ref="#HU">Husum</placeName></birth>
+                <death when="1696">1696 in <placeName ref="KI">Kiel</placeName></death>
+            </person>
+            <person xml:id="mvw">
+                <persName ref="http://gelehrtenverzeichnis.de/d9bb8b31-a541-5790-1f5b-4d91d1a1aaec">
+                    <persName type="orig">
+                        <surname>von Wedderkopp</surname>
+                        <forename>Magno</forename>
+                    </persName>
+                    <persName type="norm">
+                        <surname>von Wedderkop</surname>
+                        <forename>Magnus</forename>
+                    </persName>
+                </persName>
+                <note>Magnus von Wedderkopp war... </note>
+                <birth when="1638" type="canonical">1638 in <placeName ref="#HU"
+                    >Husum</placeName></birth>
+                <birth when="1637" type="alternate">1637</birth>
+                <death when="1721">1721 in <placeName ref="HH">Hamburg</placeName></death>
+            </person>
+            <person xml:id="o">
+                <persName ref="https://d-nb.info/gnd/104279427">
+                    <persName type="orig">
+                        <surname>Osiandro</surname>
+                    </persName>
+                    <persName type="norm">
+                        <surname>Osiander</surname>
+                        <forename>Johann Adam</forename>
+                    </persName>
+                </persName>
+                <note>Johann Adam Osiander war Professor für ev. Theologie an der Universität
+                    Tübingen</note>
+                <birth when="1622">1622</birth>
+                <death when="1697">1697</death>
+            </person>
+        </listPerson>
+        <listPlace>
+            <place xml:id="HH">
+                <placeName ref="https://d-nb.info/gnd/4023118-5">Hamburg</placeName>
+                <location>
+                    <geo>53.550556°, 9.993333°</geo>
+                </location>
+                <note>Sterbeort des Magnus von Wedderkop</note>
+            </place>
+            <place xml:id="HU">
+                <placeName ref="https://d-nb.info/gnd/4026249-2">Husum</placeName>
+                <location>
+                    <geo>54.477019°, 9.051147°</geo>
+                </location>
+                <note>Geburtsort der Gebrüder Wedderkop [Schreibweise??]</note>
+            </place>
+            <place xml:id="KI">
+                <placeName ref="https://d-nb.info/gnd/4030481-4">Kiel</placeName>
+                <location>
+                    <geo>54.32321°, 10.14019°</geo>
+                </location>
+                <note>Wirkungsort der Gebrüder Wedderkop</note>
+            </place>
+        </listPlace>
+    </standOff>
+</TEI>
